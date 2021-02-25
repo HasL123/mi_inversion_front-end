@@ -86,7 +86,7 @@ class Plan extends React.Component {
           <div className="row">
             <div className="col">
               <input
-                minlength="6"
+                minLength="6"
                 maxLength="25"
                 className="form-control"
                 placeholder="Nombre del Plan"

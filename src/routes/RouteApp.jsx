@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { BrowserRouter, Switch, Route, Router } from "react-router-dom";
-import LoginForm from "../pages/LoginForm";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import LoginForm from "../pages/Login";
 import Plan from "../pages/Plan";
 import PlanUpdate from "../pages/PlanUpdate";
 import Performance from "../pages/Performance";
