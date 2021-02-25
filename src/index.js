@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import HelloWorld from "./components/HelloWorld";
+import "bootstrap/dist/css/bootstrap.css";
+import App from "./routes/RouteApp";
 
-ReactDOM.render(<HelloWorld />, document.getElementById("app"));
+ReactDOM.render(<App />, document.getElementById("app"));
